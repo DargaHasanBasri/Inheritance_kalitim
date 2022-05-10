@@ -41,4 +41,12 @@ public class Calisan {
     public void yemekhane() {
         System.out.println(this.adSoyad + " yemekhaneye girdi.");
     }
+
+    //polimorfizm
+    // -1- ile işaretli yer aşağı da gerçekleştirilmiştir
+    public static void girisYapanlar(Calisan[] girisYapanlar) {
+        for (Calisan c : girisYapanlar) {
+            c.giris();
+        }
+    }
 }
