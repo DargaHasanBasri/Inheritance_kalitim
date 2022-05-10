@@ -23,7 +23,6 @@ public class Polymorphism_cok_bicimlilik {
         // referans class farklı olunca ortaya çıkabilecek hata aşağıda
         //a5.getBolum(); // çağıramıyoruz çünkü Akademisyene ait bir metot ve Calisana ait  referansımız Calisan
         */
-
         // -1- ile belirtilen yer aşağıda yapılmıştır Calisan classında belirlitmiştir
         // int[] girisYapanlar = new int[5];  veri tipleri classlarda olabilir
         Calisan[] girisYapanlar = {clsn2,akd2,memur2,ogrtGrv2};
